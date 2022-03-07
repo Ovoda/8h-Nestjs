@@ -15,12 +15,12 @@ PATCH http://localhost:3000/auth/2
 content-type: application/json
 
 {
-    "email": "new@email.com",
-    "password": "new_password"
+    "email": "newnew@email.com",
+    "password": "bonjour"
 }
 
 ### Find all users with a specific email
 GET http://localhost:3000/auth?email=new@email.com
 
 ### Delete user with specific id
-DELETE http://localhost:3000/auth/3
+DELETE http://localhost:3000/auth/5
